@@ -70,7 +70,7 @@ def main(args):
 
 if __name__ == '__main__':
     home()
-    print('CLOUD-DROID is the redteam as a code for Incident Response Automated Simulations \n this is a simple scripting to simulta differents TTPs.\n The final in order to generate smoke events and test alerts in your SIEM. \n https://github.com/cloud-sniper/cloud-droid')
+    print('Cloud Incident and Response Simulations. Lets you perform tabletop exercises, which measures the effectiveness in defining the incident response plan. It works as a red/purple-team-as-code, which checks if your security posture is adequate.\n\n https://github.com/cloud-sniper/cloud-droid.\n\n')
     droid_parser = argparse.ArgumentParser()
     droid_parser.version = 'version: 2.0 - https://github.com/cloud-sniper/cloud-droid'
     droid_parser.add_argument(
